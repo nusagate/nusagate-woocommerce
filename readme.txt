@@ -12,7 +12,9 @@ Nusagate for WooCommerce, easy crypto-Fiat Payment Gateway
 
 == Description ==
 
+Nusagate is a company that provides payment using cryptocurrencies to fiat with a click of a button. A decentralized and scalable efficient infrastructure technology that enables all types of merchants and payment providers across the world to extend global payment methods. Nusagate processes payments in Cryptocurrencies and Fiat, run the marketplace, disburses payroll and loans, detects fraud, and helps other businesses grow exponentially.
 
+Visit https://nusagate.com.
 
 How to use:
 
