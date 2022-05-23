@@ -25,6 +25,11 @@ How to use:
 
 Contact: developer@nusagate.com
 
+ == Screenshots == 
+
+ 1. step1.png
+ 2. step2.png
+
 == Changelog ==
 
 = 1.0 =
