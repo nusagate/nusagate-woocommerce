@@ -1,8 +1,8 @@
 <?php
 /*
- * Plugin Name: Nusagate Payment Gateway
- * Plugin URI: https://wordpress.org/plugins/nusagate-php
- * Description: Take credit card payments on your store.
+ * Plugin Name: Nusagate - WooCommerce
+ * Plugin URI: https://wordpress.org/plugins/nusagate-woocommerce
+ * Description: Nusagate for WooCommerce, easy crypto-Fiat Payment Gateway.
  * Author: Salman Abdurrohman
  * Author URI: https://nusagate.com
  * Version: 1.0.1
@@ -33,7 +33,7 @@ function nusagate_init_gateway_class() {
       $this->id = 'nusagate'; // payment gateway plugin ID
       $this->icon = plugin_dir_url( __FILE__ ) . 'assets/images/icon.png';
       $this->has_fields = true; // in case you need a custom credit card form
-      $this->method_title = 'Nusagate Gateway';
+      $this->method_title = 'Nusagate Payment Gateway';
       $this->method_description = 'Easy Crypto-Fiat Payment Gateway'; // will be displayed on the options page
 
       // gateways can support subscriptions, refunds, saved payment methods,
@@ -95,7 +95,7 @@ function nusagate_init_gateway_class() {
           'title'       => 'Title',
           'type'        => 'text',
           'description' => 'This controls the title which the user sees during checkout.',
-          'default'     => 'Crypto Payment',
+          'default'     => 'Nusagate Crypto Payment',
           'desc_tip'    => true,
         ),
         'description' => array(
@@ -154,7 +154,7 @@ function nusagate_init_gateway_class() {
 		}
 
 		/*
-		 * We're processing the payments here, everything about it is in Step 5
+		 * We're processing the payments here
 		 */
 		public function process_payment( $order_id ) {
       global $woocommerce;
