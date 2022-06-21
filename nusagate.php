@@ -1,9 +1,9 @@
 <?php
 /*
- * Plugin Name: Nusagate - WooCommerce
+ * Plugin Name: Nusagate for WooCommerce
  * Plugin URI: https://wordpress.org/plugins/nusagate-woocommerce
  * Description: Nusagate for WooCommerce, easy crypto-Fiat Payment Gateway.
- * Author: Salman Abdurrohman
+ * Author: Nusagate
  * Author URI: https://nusagate.com
  * Version: 1.0.1
  */
