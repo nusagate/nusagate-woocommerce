@@ -27,7 +27,7 @@ How to use:
 * Go to Settings > Developers > Callbacks to generate callback token and fill field with :
     - redirect success: [your-site-url]
     - redirect failed: [your-site-url]
-    - callback url: [your-site-url]/wp-json/nusagate/v1/complete-payment
+    - callback url: [your-site-url]/wp-json/nusagate/v1/complete-payment or [your-site-url]/?rest_route=/nusagate/v1/complete-payment
 * Go to WP Admin and Activate Nusagate WooCommerce.
 * Enable from WooCommerce > Settings > Payments > Nusagate WooCommerce. 
 * Enter API key, secret key, callback token from Manage.
