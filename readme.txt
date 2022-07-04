@@ -1,5 +1,5 @@
-=== Nusagate ===
-Contributors: slmnabd
+=== Nusagate - WooCommerce ===
+Contributors: nusagate, slmnabd
 Tags: woocommerce, nusagate, payment, payment gateway, commerce
 Requires at least: 4.7
 Tested up to: 6.0
@@ -18,7 +18,7 @@ Nusagate-WooCommerce is a plugin payment gateway for WooCommerce, which can allo
 
 * accept many popular cryptocurrencies
 
-Visit https://nusagate.com for more information.
+Visit [https://nusagate.com](https://nusagate.com) for more information.
 
 How to use:
 
@@ -33,7 +33,7 @@ How to use:
 * Enter API key, secret key, callback token from Manage.
 * It will automatically appear to customer on checkout.
 
-Contact: developer@nusagate.com
+Contact: support@nusagate.com
 
 == Screenshots == 
 
