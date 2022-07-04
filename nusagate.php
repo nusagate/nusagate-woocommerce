@@ -86,7 +86,7 @@ function nusagate_init_gateway_class() {
       $this->form_fields = array(
         'enabled' => array(
           'title'       => 'Enable/Disable',
-          'label'       => 'Enable Zen Gateway',
+          'label'       => 'Enable Nusagate',
           'type'        => 'checkbox',
           'description' => '',
           'default'     => 'no'

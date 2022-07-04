@@ -63,7 +63,7 @@ class Nusagate_Webhook {
       {
         $order = new WC_Order( $order_int );
       
-        $order->update_status( 'completed', 'Zenpay Webhook (Charged)' );
+        $order->update_status( 'completed', 'Nusagate Webhook (Charged)' );
         
         wp_send_json( $response_data, 200 );
       }
